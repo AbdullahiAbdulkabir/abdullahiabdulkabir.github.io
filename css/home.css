@@ -1,0 +1,105 @@
+@font-face {
+    font-family: Avenir-Book;
+    src: url('../fonts/Avenir/AvenirLTStd-Book.otf'); 
+}
+@font-face {
+    font-family: Avenir-Light;
+    src: url('../fonts/Avenir/AvenirLTStd-Light.otf'); 
+}
+
+*{
+  margin:0px;
+}
+body{
+ /*background-image: url('../images/My photo.jpg'); */
+ background-color: #58A;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+.container{
+  /*max-width: 750px;*/
+    /*margin: 0px auto;*/
+}
+.site{
+  background: #fff;
+    padding: 10px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.holder{
+    background: #f2f2f2;
+    border: 1px solid #c2c2c2;
+    min-height: 50px;
+    padding: 30px 50px ;
+}
+h2{
+  font: 200 3em/1.0em "Chicle", Helvetica, Chiller,cursive ;
+  font-weight: bold;
+  padding-top: 420px;
+  
+}
+.header{
+  height: 500px;
+  width: 100%;
+  
+  background-image: url('../images/banner.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.type{
+  margin-left: 12px;
+  width: 100%;
+  /*max-width: 770px;*/
+  position: relative;
+}
+  .type h2 {
+
+  overflow: hidden; 
+  white-space: nowrap; 
+  margin: 8 auto; 
+  letter-spacing: .07em; 
+  animation: 
+  typing 4.5s steps(40, end), /*speed*/
+   blink-caret .75s step-end infinite;
+  color: #f6f7f9;
+  text-align: left;
+}
+@keyframes typing {
+  from { width: 0 }
+  to { width: 80% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: black; }
+}
+.btn1{
+    display: block;
+    background: #dddddd;
+    border: 1px solid #cccccc;
+    box-shadow: 0px 1px #fff;
+    -moz-box-shadow: 0px 1px #fff;
+    -webkit-box-shadow: 0px 1px #fff;
+    text-align: center;
+    font-size: 23px;
+    line-height: 23px;
+    border-radius: 0px;
+    color: #4b4b4b;
+    text-shadow: 0px 1px rgba(255,255,255,0.5);
+    text-transform: lowercase;
+}
+.btn1:hover{
+      border: 1px solid #4b4b4b;
+    background: #646464;
+    box-shadow: 0px 1px #fff;
+    color: #ddd;
+    text-shadow: 0px 1px rgba(75,75,75,0.5);
+    text-decoration: none;
+}
+.row2{
+  margin-top: 50px;
+
+}
+
+
