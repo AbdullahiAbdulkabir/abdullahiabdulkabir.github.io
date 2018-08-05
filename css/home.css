@@ -23,7 +23,7 @@ margin:0px;
   font-weight:bold;
 }
 .left h2{
-  font-size: 4.5em;
+  font-size: 4.5em /*6.9em*/;
 }
 .rght{
   padding-left:0px; 
