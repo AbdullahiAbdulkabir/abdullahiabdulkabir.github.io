@@ -28,7 +28,8 @@ margin:0px;
 .rght{
   padding-left:0px; 
   padding-right:0px; 
-  /*background-image: url('../imgs/pic.jpg'); */
+  background-image: url('../imgs/resume_btn.jpg'); 
+  
   background-repeat: no-repeat;
   background-size: cover;
   font-weight:bold;
