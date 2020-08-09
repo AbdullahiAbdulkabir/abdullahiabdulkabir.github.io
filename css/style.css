@@ -1,7 +1,7 @@
 /* Custom properties/variables  */
 :root {
   --bg-white: #f0f0f0;
-  --main-red: #ff0022;
+  --main-red: rgb(124, 55, 173);
   --main-blue: #904f4f;
   --main-gray: #303841;
 }
