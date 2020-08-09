@@ -227,7 +227,7 @@ img {
 }
 
 .btn-show-all:hover {
-  background: linear-gradient(62deg, #ff0000, #fb8e8e);
+  background: rgb(124, 55, 173);
 }
 
 .btn-show-all:hover > i {
